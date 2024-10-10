@@ -1,0 +1,32 @@
+.stats {
+  background-image: url("/shared/pictures/stats/stats_bg.png");
+}
+
+.stats .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+
+  max-width: 940px;
+  padding: 55px 0;
+}
+
+.start__cards-container {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__cards-container__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.start__cards-container__description {
+  font-size: 14px;
+  font-weight: 500;
+}

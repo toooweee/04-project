@@ -1,0 +1,115 @@
+.get-started {
+  padding-top: 123.2px;
+  z-index: 10;
+}
+
+.get-started .container {
+  display: flex;
+  gap: 20px;
+  padding: 110px 0px 130px;
+}
+
+.get-started__text-container {
+  flex: 1;
+  max-width: 100%;
+}
+
+.get-started__text-container__users {
+  color: rgba(32, 31, 31, 0.2);
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.get-started__text-container__title {
+  font-size: 75px;
+  color: rgba(32, 31, 31, 1);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 20px 0 32px;
+}
+
+.get-started__text-container__title span {
+  color: var(--main-color);
+}
+
+.get-started__text-container__description {
+  font-size: 18px;
+  color: rgba(103, 103, 103, 1);
+}
+
+.get-started__text-container__description span {
+  color: var(--main-color);
+}
+
+.get-started__text-container__buttons button {
+  transition: all 0.15s;
+  cursor: pointer;
+
+  padding: 18px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 13px;
+  margin: 53px 0 33px;
+}
+
+.get-started__text-container__buttons_first {
+  color: white;
+  background-color: var(--main-color);
+  border: 1px solid transparent;
+}
+
+.get-started__text-container__buttons_first:hover {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  background-color: transparent;
+}
+
+.get-started__text-container__buttons_second {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  background-color: transparent;
+}
+
+.get-started__rating-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 9px;
+}
+
+.get-started__rating-container__logo-container {
+  margin-right: 10px;
+}
+
+.get-started__rating-container div {
+  color: #334155;
+}
+
+.get-started__rating-container div span {
+  vertical-align: bottom;
+}
+/* 
+// RIGHT SIDE
+*/
+
+.get-started__images-container {
+  flex: 1;
+  max-width: 100%;
+}
+
+.get-started__images-container {
+  position: relative;
+}
+
+.get-started__images-container__top-lines {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+}
+
+.get-started__images-container__bottom-lines {
+  position: absolute;
+  left: -15px;
+  bottom: 15px;
+}
