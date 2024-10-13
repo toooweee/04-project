@@ -1,7 +1,7 @@
 .promotion .container {
     display: flex;
     padding: 100px 0;
-    position: relative; /* Добавляем relative для родительского контейнера */
+    position: relative;
 }
 
 .promotion__fieldset {
@@ -10,7 +10,7 @@
     border: none;
     border-radius: 30px;
     width: 100%;
-    position: relative; /* Для контроля расположения внутренних элементов */
+    position: relative; 
 }
 
 .promotion__fieldset__title {
