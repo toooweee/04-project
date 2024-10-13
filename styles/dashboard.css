@@ -1,0 +1,173 @@
+.dashboard .container {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 0 140px;
+  border-bottom: 1px solid #ddd;
+  gap: 150px;
+}
+
+.dashboard__left-side {
+  flex: 1;
+}
+
+.dashboard__right-side {
+  flex: 1;
+  gap: 38px;
+}
+
+.dashboard__left-side__title {
+  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgba(32, 31, 31, 1);
+  font-weight: 600;
+  line-height: 1.2;
+  font-weight: 700;
+
+  margin: 0 auto;
+}
+
+.dashboard__left-side__title span {
+  color: var(--main-color);
+}
+
+.dashboard__left-side__statuses-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.dashboard__left-side__statuses-container__card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 350px;
+  border-radius: 12px;
+  padding: 5px 18px;
+}
+
+.dashboard__left-side__statuses-container__card__image {
+  height: 90px;
+}
+
+.dashboard__left-side__statuses-container__card__image img {
+  height: 100%;
+}
+
+.dashboard__left-side__statuses-container__card__text {
+  flex: 1;
+  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgba(50, 49, 66, 1);
+}
+
+.dashboard__left-side__statuses-container__card__text__name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dashboard__left-side__statuses-container__card__text__status {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.dashboard__left-side__statuses-container__card__text__time {
+  color: rgba(172, 173, 185, 1);
+  font-weight: 500;
+  font-size: 13px;
+  text-align: right;
+}
+
+.dashboard__right-side {
+  display: flex;
+  flex-direction: column;
+
+  width: 535px;
+  box-shadow: 3px 7px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  padding: 45px 40px;
+}
+
+.dashboard__right-side__select-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard__right-side__select-container label {
+  font-weight: 800;
+  font-size: 28px;
+  color: rgba(26, 32, 44, 1);
+}
+
+.dashboard__right-side__select-container select {
+  outline: none;
+  padding: 12px 18px;
+  font-size: 18px;
+  color: rgba(26, 32, 44, 1);
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(237, 237, 237);
+}
+
+.dashboard__right-side__purchase-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 22px;
+}
+
+.dashboard__right-side__purchase-container__card {
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.asdf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.dashboard__right-side__purchase-container__card__image-container {
+  width: 50px;
+  height: 50px;
+}
+
+.dashboard__right-side__purchase-container__card__image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.dashboard__right-side__purchase-container__card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+}
+
+.dashboard__right-side__purchase-container__card__info-one {
+  font-weight: 800;
+  font-size: 18px;
+  color: rgba(26, 32, 44, 1);
+}
+
+.dashboard__right-side__purchase-container__card__info-two {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(160, 174, 192, 1);
+}
+
+.dashboard__right-side__purchase-container__card__price {
+  font-weight: 800;
+  font-size: 22px;
+  color: rgba(26, 32, 44, 1);
+}

@@ -1,0 +1,104 @@
+.top-restaurants .container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0 120px;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-restaurants__title {
+  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 45px;
+  color: rgba(32, 31, 31, 1);
+  font-weight: 600;
+  line-height: 1.2;
+  font-weight: 700;
+
+  margin: 0 auto;
+}
+
+.top-restaurants__title span {
+  color: var(--main-color);
+}
+
+.top-restaurants__card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+
+  padding: 85px 0 65px;
+}
+
+.top-restaurants__card {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 31px;
+  overflow: hidden;
+}
+
+.top-restaurants__card:hover {
+  cursor: pointer;
+}
+
+.top-restaurants__card__image-container {
+  max-width: 395px;
+  max-height: 176px;
+}
+
+.top-restaurants__card__image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.top-restaurants__card__text-container {
+  padding: 15px 25px 17px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-restaurants__card__text-container__harm {
+  background-color: rgba(247, 237, 208, 1);
+  color: rgba(218, 163, 26, 1);
+  padding: 5px 8px;
+  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  max-width: 65px;
+  border-radius: 5px;
+}
+
+.top-restaurants__card__text-container__title {
+  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgba(50, 49, 66, 1);
+  font-weight: 600;
+}
+
+.top-restaurants__card__text-container__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-restaurants__card__text-container__info p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  color: rgba(142, 151, 166, 1);
+  font-size: 20px;
+  gap: 10px;
+}
+
+.top-restaurants__bottom {
+  display: flex;
+  align-self: flex-end;
+}
+
+.top-restaurants__bottom a {
+  color: rgba(172, 173, 185, 1);
+  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}

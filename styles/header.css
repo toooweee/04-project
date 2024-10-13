@@ -1,5 +1,15 @@
-.header .container {
+.header {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 90;
+  background-color: var(--background-color);
+}
+
+.header .container {
+  position: relative;
   left: 0;
   right: 0;
   z-index: 100;

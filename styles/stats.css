@@ -18,6 +18,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  gap: 10px;
 }
 
 .start__cards-container__title {
@@ -29,4 +31,7 @@
 .start__cards-container__description {
   font-size: 14px;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

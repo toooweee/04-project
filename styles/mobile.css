@@ -1,0 +1,78 @@
+.mobile .container {
+  display: flex;
+  padding: 100px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.mobile__phone-container {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.mobile__phone-container img {
+}
+
+.mobile__text-download-container {
+  flex: 1;
+}
+
+.mobile__text-download-container__title {
+  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgba(32, 31, 31, 1);
+  font-weight: 600;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.mobile__text-download-container__title span {
+  color: var(--main-color);
+}
+
+.mobile__text-download-container__text {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(103, 103, 103, 1);
+
+  padding: 65px 0px 65px 20px;
+}
+
+.mobile__text-download-container__text__first {
+  list-style-type: disc;
+}
+
+.mobile__text-download-container__text__second {
+  list-style-type: disc;
+}
+
+.mobile__text-download-container__button {
+  transition: all 0.15s;
+  cursor: pointer;
+
+  padding: 18px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 13px;
+  color: white;
+  background-color: var(--main-color);
+  border: 1px solid transparent;
+
+  position: relative;
+}
+
+.mobile__text-download-container__button:hover {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  background-color: transparent;
+}
+
+.mobile__text-download-container__button img {
+  position: absolute;
+  bottom: -160x;
+  right: -180px;
+  pointer-events: none;
+}
